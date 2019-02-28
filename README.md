@@ -1,1 +1,1 @@
-# Extra-Credit-Game-Jam-1
+# Extra-Credits-Game-Jam-1
