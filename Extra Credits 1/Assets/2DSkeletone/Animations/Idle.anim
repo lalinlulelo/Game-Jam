@@ -1,0 +1,1436 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Idle
+  serializedVersion: 3
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: .00161946751, w: .999998689}
+        inSlope: {x: 0, y: 0, z: .159663573, w: -.000683069171}
+        outSlope: {x: 0, y: 0, z: .159663573, w: -.000683069171}
+        tangentMode: 0
+      - time: .400000006
+        value: {x: 0, y: 0, z: .027375225, w: .999625206}
+        inSlope: {x: 0, y: 0, z: -.252562821, w: .00679135369}
+        outSlope: {x: 0, y: 0, z: -.252562821, w: .00679135369}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: .00161946751, w: .999998689}
+        inSlope: {x: 0, y: 0, z: -.237848565, w: .00132858765}
+        outSlope: {x: 0, y: 0, z: -.237848565, w: .00132858765}
+        tangentMode: 729219108
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: .0699089244, w: -.997553408}
+        inSlope: {x: 0, y: 0, z: -.10907314, w: -.00744402362}
+        outSlope: {x: 0, y: 0, z: -.10907314, w: -.00744402362}
+        tangentMode: 1065353216
+      - time: .400000006
+        value: {x: 0, y: 0, z: .0523046218, w: -.998631179}
+        inSlope: {x: 0, y: 0, z: .172758073, w: .00910699461}
+        outSlope: {x: 0, y: 0, z: .172758073, w: .00910699461}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: .0699089244, w: -.997553408}
+        inSlope: {x: 0, y: 0, z: .162488461, w: .0109434137}
+        outSlope: {x: 0, y: 0, z: .162488461, w: .0109434137}
+        tangentMode: 1065353216
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 0, z: -.001859418, w: .999998271}
+        inSlope: {x: 0, y: 0, z: -.17104131, w: -.000806450786}
+        outSlope: {x: 0, y: 0, z: -.17104131, w: -.000806450786}
+        tangentMode: 1055730077
+      - time: .300000012
+        value: {x: 0, y: 0, z: -.0226270501, w: .999743998}
+        inSlope: {x: 0, y: 0, z: .0889355764, w: .00198572897}
+        outSlope: {x: 0, y: 0, z: .0889355764, w: .00198572897}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: -.001859418, w: .999998271}
+        inSlope: {x: 0, y: 0, z: .0866665915, w: .000286102324}
+        outSlope: {x: 0, y: 0, z: .0866665915, w: .000286102324}
+        tangentMode: 131573436
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: .157782942, w: -.000414848299}
+        outSlope: {x: 0, y: 0, z: .157782942, w: -.000414848299}
+        tangentMode: 1055730077
+      - time: .433333337
+        value: {x: 0, y: 0, z: .0144496914, w: .999895573}
+        inSlope: {x: 0, y: 0, z: -.22131595, w: .00316411303}
+        outSlope: {x: 0, y: 0, z: -.22131595, w: .00316411303}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: -.207575947, w: .000718832074}
+        outSlope: {x: 0, y: 0, z: -.207575947, w: .000718832074}
+        tangentMode: 131573436
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: 1.24943733, z: 0}
+        inSlope: {x: 0, y: -.437361509, z: 0}
+        outSlope: {x: 0, y: -.437361509, z: 0}
+        tangentMode: 1
+      - time: .233333334
+        value: {x: 0, y: 1.14738631, z: 0}
+        inSlope: {x: 0, y: -.0273350775, z: 0}
+        outSlope: {x: 0, y: -.0273350775, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: 1.24943733, z: 0}
+        inSlope: {x: 0, y: .382691354, z: 0}
+        outSlope: {x: 0, y: .382691354, z: 0}
+        tangentMode: 3145778
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -.814197719, z: 0}
+        inSlope: {x: 0, y: .42736581, z: 0}
+        outSlope: {x: 0, y: .42736581, z: 0}
+        tangentMode: 1
+      - time: .233333334
+        value: {x: 0, y: -.714479029, z: 0}
+        inSlope: {x: 0, y: .0267103463, z: 0}
+        outSlope: {x: 0, y: .0267103463, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: -.814197719, z: 0}
+        inSlope: {x: 0, y: -.373945117, z: 0}
+        outSlope: {x: 0, y: -.373945117, z: 0}
+        tangentMode: 3145778
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_3/ironman_Map_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 0, y: -.878707409, z: 0}
+        inSlope: {x: 0, y: .444459915, z: 0}
+        outSlope: {x: 0, y: .444459915, z: 0}
+        tangentMode: 729219073
+      - time: .233333334
+        value: {x: 0, y: -.775000095, z: 0}
+        inSlope: {x: 0, y: .0277787298, z: 0}
+        outSlope: {x: 0, y: .0277787298, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 0, y: -.878707409, z: 0}
+        inSlope: {x: 0, y: -.388902456, z: 0}
+        outSlope: {x: 0, y: -.388902456, z: 0}
+        tangentMode: 3145778
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_2/ironman_Map_0
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.0390709192, y: 1.1466192, z: 0}
+        inSlope: {x: -.248901844, y: -.225644588, z: 0}
+        outSlope: {x: -.248901844, y: -.225644588, z: 0}
+        tangentMode: 0
+      - time: .166666672
+        value: {x: -.0805545598, y: 1.10901177, z: 0}
+        inSlope: {x: .0202338248, y: -.098020792, z: 0}
+        outSlope: {x: .0202338248, y: -.098020792, z: 0}
+        tangentMode: 1043392382
+      - time: .333333343
+        value: {x: -.0323263109, y: 1.1139456, z: 0}
+        inSlope: {x: .124450922, y: .112822302, z: 0}
+        outSlope: {x: .124450922, y: .112822302, z: 0}
+        tangentMode: -1082171479
+      - time: .5
+        value: {x: -.0390709192, y: 1.1466192, z: 0}
+        inSlope: {x: -.0404676534, y: .196041599, z: 0}
+        outSlope: {x: -.0404676534, y: .196041599, z: 0}
+        tangentMode: 15
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .269371569, y: .463208109, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 729219073
+      - time: .300000012
+        value: {x: .269371569, y: .463208109, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: .269371569, y: .463208109, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 3145776
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: -.286375284, y: .501061022, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 1104674816
+      - time: .5
+        value: {x: -.286375284, y: .501061022, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: .277478516, y: -.193170547, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: ironman_Map_6/ironman_Map_3
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 30
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: .5
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.24943733
+        inSlope: -.437361509
+        outSlope: -.437361509
+        tangentMode: 10
+      - time: .233333334
+        value: 1.14738631
+        inSlope: -.0273350775
+        outSlope: -.0273350775
+        tangentMode: 10
+      - time: .5
+        value: 1.24943733
+        inSlope: .382691354
+        outSlope: .382691354
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .233333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.814197719
+        inSlope: .42736581
+        outSlope: .42736581
+        tangentMode: 10
+      - time: .233333334
+        value: -.714479029
+        inSlope: .0267103463
+        outSlope: .0267103463
+        tangentMode: 10
+      - time: .5
+        value: -.814197719
+        inSlope: -.373945117
+        outSlope: -.373945117
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_3/ironman_Map_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .233333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_3/ironman_Map_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.878707409
+        inSlope: .444459915
+        outSlope: .444459915
+        tangentMode: 10
+      - time: .233333334
+        value: -.775000095
+        inSlope: .0277787298
+        outSlope: .0277787298
+        tangentMode: 10
+      - time: .5
+        value: -.878707409
+        inSlope: -.388902456
+        outSlope: -.388902456
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_2/ironman_Map_0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .233333334
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_2/ironman_Map_0
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.0390709192
+        inSlope: -.248901844
+        outSlope: -.248901844
+        tangentMode: 10
+      - time: .166666672
+        value: -.0805545598
+        inSlope: .0202338248
+        outSlope: .0202338248
+        tangentMode: 10
+      - time: .333333343
+        value: -.0323263109
+        inSlope: .124450922
+        outSlope: .124450922
+        tangentMode: 10
+      - time: .5
+        value: -.0390709192
+        inSlope: -.0404676534
+        outSlope: -.0404676534
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.1466192
+        inSlope: -.225644588
+        outSlope: -.225644588
+        tangentMode: 10
+      - time: .166666672
+        value: 1.10901177
+        inSlope: -.098020792
+        outSlope: -.098020792
+        tangentMode: 10
+      - time: .333333343
+        value: 1.1139456
+        inSlope: .112822302
+        outSlope: .112822302
+        tangentMode: 10
+      - time: .5
+        value: 1.1466192
+        inSlope: .196041599
+        outSlope: .196041599
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .999998689
+        inSlope: -.000683069171
+        outSlope: -.000683069171
+        tangentMode: 0
+      - time: .400000006
+        value: .999625206
+        inSlope: .00679135369
+        outSlope: .00679135369
+        tangentMode: 0
+      - time: .5
+        value: .999998689
+        inSlope: .00132858765
+        outSlope: .00132858765
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .00161946751
+        inSlope: .159663573
+        outSlope: .159663573
+        tangentMode: 0
+      - time: .400000006
+        value: .027375225
+        inSlope: -.252562821
+        outSlope: -.252562821
+        tangentMode: 0
+      - time: .5
+        value: .00161946751
+        inSlope: -.237848565
+        outSlope: -.237848565
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.997553408
+        inSlope: -.00744402362
+        outSlope: -.00744402362
+        tangentMode: 0
+      - time: .400000006
+        value: -.998631179
+        inSlope: .00910699461
+        outSlope: .00910699461
+        tangentMode: 0
+      - time: .5
+        value: -.997553408
+        inSlope: .0109434137
+        outSlope: .0109434137
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .0699089244
+        inSlope: -.10907314
+        outSlope: -.10907314
+        tangentMode: 0
+      - time: .400000006
+        value: .0523046218
+        inSlope: .172758073
+        outSlope: .172758073
+        tangentMode: 0
+      - time: .5
+        value: .0699089244
+        inSlope: .162488461
+        outSlope: .162488461
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .400000006
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .463208109
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: .463208109
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: .463208109
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .269371569
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: .269371569
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: .269371569
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .501061022
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: .501061022
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.286375284
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: -.286375284
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .999998271
+        inSlope: -.000806450786
+        outSlope: -.000806450786
+        tangentMode: 0
+      - time: .300000012
+        value: .999743998
+        inSlope: .00198572897
+        outSlope: .00198572897
+        tangentMode: 0
+      - time: .5
+        value: .999998271
+        inSlope: .000286102324
+        outSlope: .000286102324
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.001859418
+        inSlope: -.17104131
+        outSlope: -.17104131
+        tangentMode: 0
+      - time: .300000012
+        value: -.0226270501
+        inSlope: .0889355764
+        outSlope: .0889355764
+        tangentMode: 0
+      - time: .5
+        value: -.001859418
+        inSlope: .0866665915
+        outSlope: .0866665915
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.193170547
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .277478516
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .433333337
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .433333337
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: .157782942
+        outSlope: .157782942
+        tangentMode: 0
+      - time: .433333337
+        value: .0144496914
+        inSlope: -.22131595
+        outSlope: -.22131595
+        tangentMode: 0
+      - time: .5
+        value: 0
+        inSlope: -.207575947
+        outSlope: -.207575947
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 1
+        inSlope: -.000414848299
+        outSlope: -.000414848299
+        tangentMode: 0
+      - time: .433333337
+        value: .999895573
+        inSlope: .00316411303
+        outSlope: .00316411303
+        tangentMode: 0
+      - time: .5
+        value: 1
+        inSlope: .000718832074
+        outSlope: .000718832074
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalRotation.w
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -.21307373
+        inSlope: -17.5001221
+        outSlope: -17.5001221
+        tangentMode: 10
+      - time: .166666672
+        value: -3.12976074
+        inSlope: -4.37503004
+        outSlope: -4.37503004
+        tangentMode: 10
+      - time: .5
+        value: -.21307373
+        inSlope: 8.75006199
+        outSlope: 8.75006199
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ironman_Map_6/ironman_Map_9
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .166666672
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .333333343
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: -0
+        value: 0
+        inSlope: 17.0822239
+        outSlope: 17.0822239
+        tangentMode: 10
+      - time: .166666672
+        value: 2.84703755
+        inSlope: 10.8419027
+        outSlope: 10.8419027
+        tangentMode: 10
+      - time: .333333343
+        value: 3.6139679
+        inSlope: -8.54111385
+        outSlope: -8.54111385
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: -21.6838093
+        outSlope: -21.6838093
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_10
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: .185577393
+        inSlope: 16.2857056
+        outSlope: 16.2857056
+        tangentMode: 10
+      - time: .300000012
+        value: 5.07128906
+        inSlope: -4.07142735
+        outSlope: -4.07142735
+        tangentMode: 10
+      - time: .5
+        value: .185577393
+        inSlope: -24.4285603
+        outSlope: -24.4285603
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_7
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .300000012
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: .5
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 351.982483
+        inSlope: 11.151021
+        outSlope: 11.151021
+        tangentMode: 10
+      - time: .300000012
+        value: 355.327789
+        inSlope: -2.78775644
+        outSlope: -2.78775644
+        tangentMode: 10
+      - time: .5
+        value: 351.982483
+        inSlope: -16.7265339
+        outSlope: -16.7265339
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ironman_Map_6/ironman_Map_9/ironman_Map_8
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.x
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.y
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: localEulerAnglesBaked.z
+    path: ironman_Map_6/ironman_Map_3
+    classID: 4
+    script: {fileID: 0}
+  m_Events: []

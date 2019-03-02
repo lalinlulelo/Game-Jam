@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: debf6e22a3517cd45b6e23f52ff687b5
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ironman_Map_0
+    21300002: ironman_Map_1
+    21300004: ironman_Map_2
+    21300006: ironman_Map_3
+    21300008: ironman_Map_4
+    21300010: ironman_Map_5
+    21300012: ironman_Map_6
+    21300014: ironman_Map_7
+    21300016: ironman_Map_8
+    21300018: ironman_Map_9
+    21300020: ironman_Map_10
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ironman_Map_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 12
+        width: 69
+        height: 29
+      alignment: 9
+      pivot: {x: 0.7143392, y: 0.789116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d794279a55a6e4fdea4e81ab9a574e03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_1
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 12
+        width: 77
+        height: 32
+      alignment: 9
+      pivot: {x: 0.6858453, y: 0.79765224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d897e6ad73c74dd5bf948d9fadf5f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 45
+        width: 52
+        height: 115
+      alignment: 9
+      pivot: {x: 0.54164183, y: 0.7806707}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c85466f3c64d4854add1023bffb68b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 48
+        width: 59
+        height: 116
+      alignment: 9
+      pivot: {x: 0.6116421, y: 0.7208273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14658105a81d4dd891b7b685cff83d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_4
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 157
+        width: 50
+        height: 57
+      alignment: 9
+      pivot: {x: 0.61611754, y: 0.74119407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec2735bbee049f5b0c0bb3d6311455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_5
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 167
+        width: 45
+        height: 52
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a86575df0a7543f2a6cae55203f9b8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 178
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b51c8bc7eeb741f7af26ef13765c818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 218
+        width: 51
+        height: 122
+      alignment: 9
+      pivot: {x: 0.53500426, y: 0.7863797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e78acf4379244f97b5d493f64d61eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 227
+        width: 53
+        height: 118
+      alignment: 9
+      pivot: {x: 0.5148152, y: 0.78320026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fd89e0c4f614ceeb091399421a34d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 225
+        width: 107
+        height: 115
+      alignment: 9
+      pivot: {x: 0.51645166, y: 0.117318325}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332b915867693461383695b87c2d03f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ironman_Map_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 350
+        width: 171
+        height: 176
+      alignment: 9
+      pivot: {x: 0.57133704, y: 0.28505448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514d6e6700c50402fa94133b05984924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
