@@ -7,17 +7,17 @@ public class angryBird : MonoBehaviour
     private int min = -2;
     private int max = 2;
     public float y;
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody rigidbody;
     // Start is called before the first frame update
     void Start()
     {
-        rigidbody2D=GetComponent<Rigidbody2D> ();
+        rigidbody=GetComponent<Rigidbody> ();
     }
 
     // Update is called once per frame
     void Update()
     {
-        rigidbody2D.AddForce(new Vector2(0,RandomNumber(min,max)));
+        rigidbody.AddForce(new Vector2(0,0));
     }
 
     // Generate a random number between two numbers
