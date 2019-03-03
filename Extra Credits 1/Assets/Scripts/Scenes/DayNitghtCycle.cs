@@ -10,7 +10,6 @@ public class DayNitghtCycle : MonoBehaviour
     private Light SunLight;
     private Transform SunTransform;
     public Text timetext;
-    public int days;
 
     private float intensity;
     public Color fogday = Color.white;
@@ -94,7 +93,7 @@ public class DayNitghtCycle : MonoBehaviour
         this.currentTimeOfDay += Time.deltaTime * this.speed;
         if (this.currentTimeOfDay > SECOND_IN_DAY)
         {
-            this.days += 1;
+            ApplicationModel.days += 1;
             this.currentTimeOfDay = this.currentTimeOfDay % SECOND_IN_DAY;
         }
         this.timetext.text = TimeSpan.FromSeconds(this.currentTimeOfDay).ToString();
