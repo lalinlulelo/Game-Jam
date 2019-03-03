@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public class Item : MonoBehaviour
+public class Item : AutoDestroy
 {
     public float speed = 10f;
 
