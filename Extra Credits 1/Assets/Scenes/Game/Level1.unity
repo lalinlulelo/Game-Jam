@@ -332,7 +332,7 @@ GameObject:
   - component: {fileID: 303482224}
   - component: {fileID: 303482223}
   m_Layer: 0
-  m_Name: Point Light (1)
+  m_Name: Point Light3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 748771031}
   - component: {fileID: 748771030}
   m_Layer: 0
-  m_Name: Point Light (2)
+  m_Name: Point Light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 2098967798}
   - component: {fileID: 2098967797}
   m_Layer: 0
-  m_Name: Point Light (3)
+  m_Name: Point Light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
