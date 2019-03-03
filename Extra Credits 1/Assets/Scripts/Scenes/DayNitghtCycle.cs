@@ -7,28 +7,28 @@ public class DayNitghtCycle : MonoBehaviour
     private static readonly int SECOND_IN_DAY = 24 * 60 * 60;
 
     public float currentTimeOfDay;
-    public Transform SunTransform;
-    public Light SunLight;
+    private Light SunLight;
+    private Transform SunTransform;
     public Text timetext;
     public int days;
 
-    public float intensity;
+    private float intensity;
     public Color fogday = Color.white;
     public Color fognight = Color.grey;
 
-    public int speed;
-
-    public Transform sun;
+    public int speed = 10000;
 
     //Has to be at least 4 so-called control points
-    public Transform startPoint;
-    public Transform endPoint;
-    public Transform controlPointLeft;
-    public Transform controlPointRight;
+    public Vector2 startPoint;
+    public Vector2 endPoint;
+    public Vector2 controlPointLeft;
+    public Vector2 controlPointRight;
 
     private void Start()
     {
-        this.sun.position = this.startPoint.position;
+        this.SunLight = this.GetComponentInChildren<Light>();
+        this.SunTransform = this.GetComponent<Transform>();
+        this.SunTransform.position = new Vector3(startPoint.x, startPoint.y, this.SunTransform.position.z);
     }
 
     // Update is called once per frame
@@ -65,26 +65,28 @@ public class DayNitghtCycle : MonoBehaviour
 
     public void ChangePosition()
     {
+        Vector2 p;
         if (this.currentTimeOfDay > SECOND_IN_DAY / 4 && this.currentTimeOfDay < SECOND_IN_DAY / 4 * 3)
         {
-            this.sun.position = this.DeCasteljausAlgorithm((this.currentTimeOfDay - SECOND_IN_DAY / 4) / (SECOND_IN_DAY / 2),
-                this.startPoint.position, this.controlPointLeft.position, this.controlPointRight.position, this.endPoint.position);
+            p = this.DeCasteljausAlgorithm((this.currentTimeOfDay - SECOND_IN_DAY / 4) / (SECOND_IN_DAY / 2),
+                this.startPoint, this.controlPointLeft, this.controlPointRight, this.endPoint);
+            this.SunTransform.position = new Vector3(p.x, p.y, this.SunTransform.position.z);
         }
-        else
+       /* else
         {
-            Vector3 p;
+
             if (this.currentTimeOfDay < SECOND_IN_DAY / 4)
             {
                 p = this.DeCasteljausAlgorithm((this.currentTimeOfDay + (SECOND_IN_DAY / 4)) / (SECOND_IN_DAY / 2),
-                          this.startPoint.position, this.controlPointLeft.position, this.controlPointRight.position, this.endPoint.position);
+                          this.startPoint, this.controlPointLeft, this.controlPointRight, this.endPoint);
             }
             else
             {
                 p = this.DeCasteljausAlgorithm((this.currentTimeOfDay - (SECOND_IN_DAY / 4 * 3)) / (SECOND_IN_DAY / 2),
-                            this.startPoint.position, this.controlPointLeft.position, this.controlPointRight.position, this.endPoint.position);
+                            this.startPoint, this.controlPointLeft, this.controlPointRight, this.endPoint);
             }
-            this.sun.position = -p;//Vector3.Reflect(p, Vector3.right);
-        }
+            this.SunTransform.position = new Vector3(-p.x, -p.y, this.SunTransform.position.z);//Vector3.Reflect(p, Vector3.right);
+        }*/
     }
 
     public void ChangeTime()
@@ -97,7 +99,7 @@ public class DayNitghtCycle : MonoBehaviour
         }
         this.timetext.text = TimeSpan.FromSeconds(this.currentTimeOfDay).ToString();
 
-        this.SunTransform.rotation = Quaternion.Euler(new Vector3((this.currentTimeOfDay - SECOND_IN_DAY / 4) / SECOND_IN_DAY * 360, 0, 0));
+        this.SunLight.transform.rotation = Quaternion.Euler(new Vector3((this.currentTimeOfDay + SECOND_IN_DAY / 3) / SECOND_IN_DAY * 360, 0, 0));
 
         if (this.currentTimeOfDay < SECOND_IN_DAY / 2)
         {
