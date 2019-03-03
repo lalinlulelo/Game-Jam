@@ -24,8 +24,13 @@ public class Player : MonoBehaviour
 
         if (healthPoints <= 0)
         {
-            //Menu Game Over
-            Debug.Log("Game Over");
+            this.OnGameOver();
         }
+    }
+    
+
+    private void OnGameOver() {
+        Debug.Log("Game Over");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
     }
 }
