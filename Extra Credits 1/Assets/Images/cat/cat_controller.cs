@@ -16,33 +16,40 @@ public class cat_controller : MonoBehaviour
     {
         _anim = GetComponent<Animator>();
         Start_Scale = transform.localScale;
-        _anim.SetBool("jumpDan", false);
-        _anim.SetBool("downDan", false);
     }
 
     void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow)&&ground)
         {            
-                _anim.SetBool("jumpDan", true);                                    //1.Change to Jump State, and Play JumpAnimation.
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);                
+        }
+        else if (Input.GetKey(KeyCode.DownArrow) && ground)
+        {
+            _anim.SetBool("Move",true);
         }
         else
         {
-            _anim.SetBool("jumpDan", false);
+            _anim.SetBool("Move", false);
         }
+
 
 
     }
     void OnCollisionEnter2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals(nombreTag))
+        {
             ground = true;
+            _anim.SetBool("Jump", false);
+
+        }
     }
     void OnCollisionExit2D(Collision2D col)
     {
         if (col.gameObject.tag.Equals(nombreTag))
             ground = false;
+        _anim.SetBool("Jump", true);        
     }
 
 

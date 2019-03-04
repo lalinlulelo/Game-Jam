@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: runDan
+  m_Name: catDead
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,9 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 88042169b23edc94589c879b5287a1ec, type: 3}
+      value: {fileID: 21300000, guid: d15dc708129353840bea5b7aaf6b1368, type: 3}
     - time: 0.083333336
-      value: {fileID: 21300000, guid: a3712209f9aa6184a8547386482ad699, type: 3}
+      value: {fileID: 21300000, guid: 6011c8c640cc33147a8babd11132ba4e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -42,8 +42,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 88042169b23edc94589c879b5287a1ec, type: 3}
-    - {fileID: 21300000, guid: a3712209f9aa6184a8547386482ad699, type: 3}
+    - {fileID: 21300000, guid: d15dc708129353840bea5b7aaf6b1368, type: 3}
+    - {fileID: 21300000, guid: 6011c8c640cc33147a8babd11132ba4e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
