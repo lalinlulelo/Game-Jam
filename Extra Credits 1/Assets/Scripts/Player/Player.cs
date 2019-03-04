@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Player : MonoBehaviour
 {
@@ -32,5 +33,11 @@ public class Player : MonoBehaviour
     private void OnGameOver() {
         Debug.Log("Game Over");
         UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+    }
+
+    public void ApplyEfect(Type t) {
+        if (t == typeof(Item)) {
+            this.healthPoints += 1;
+        }
     }
 }

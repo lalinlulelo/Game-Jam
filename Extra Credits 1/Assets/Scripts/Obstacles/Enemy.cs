@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : AutoDestroy
 {
     public float speed = 10f;
     public int damage = 1;
@@ -11,11 +11,6 @@ public class Enemy : MonoBehaviour
     {
         float fixedSpeed = speed * Time.deltaTime;
         transform.Translate(Vector2.left * fixedSpeed);
-    }
-
-    void OnBecameInvisible()
-    {
-        Destroy(gameObject);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
