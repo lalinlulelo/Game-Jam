@@ -48,15 +48,11 @@ public class IronMan_Controller : MonoBehaviour
 
 				GetComponent<Rigidbody2D>().AddForce (new Vector2 (0, JumpPower));			//2. make to fly to Ironman by Force.
 				this.GetComponent<Rigidbody2D>().gravityScale = -5;
-				Smog [0].emissionRate = Mathf.Lerp (0, 30, Time.time);			//3. increase particle EmitRate.
-				Smog [1].emissionRate = Mathf.Lerp (0, 30, Time.time);
 			}	
 		} else {																//if Ironman move to Up.
 			//Add Gravity
 			this.GetComponent<Rigidbody2D>().gravityScale = 5;
-			_anim.SetBool ("Jump", false);										//Lift JumpState, 
-			Smog [0].emissionRate = Mathf.Lerp (30, 0, Time.time);				//decrease particle EmitRate.
-			Smog [1].emissionRate = Mathf.Lerp (30, 0, Time.time);
+			_anim.SetBool ("Jump", false);								
 		}
 			
 		//if Ironman do Shot.
@@ -71,16 +67,4 @@ public class IronMan_Controller : MonoBehaviour
 		}
 	}
 	
-	//if shot Animation Played, make a bullet On Animation.
-	public void Shot ()
-	{
-		Attck_ing = false;
-		//Rigidbody2D bulletInstance = Instantiate (rocket, Shot_Point.position, Quaternion.Euler (new Vector3 (0, 0, transform.localScale.x < 0 ? 0 : 180))) as Rigidbody2D;
-	}
-	
-	public void Shot_2 ()
-	{
-		Attck_ing = false;
-		//Rigidbody2D bulletInstance = Instantiate (rocket, Shot_Point.position, Quaternion.Euler (new Vector3 (0, 0, transform.localScale.x < 0 ? 0 : 180))) as Rigidbody2D;
-	}
 }
