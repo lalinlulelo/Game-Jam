@@ -5,14 +5,11 @@ using UnityEngine;
 public class ItemSpanwer : MonoBehaviour
 {
     public Item[] items;
-    public Vector3 direction;
-    public float spawnWait;
-    public float spawnMostWait;
-    public float spawnLeastWait;
-    public int startWait;
+    public float delay;
     public bool stop;
+    public Transform parent;
 
-    int randEnemy;
+    int randItem;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +20,6 @@ public class ItemSpanwer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        spawnWait = Random.Range(spawnLeastWait, spawnMostWait);
         if (stop == true)
         {
             Destroy(gameObject);
@@ -32,17 +28,15 @@ public class ItemSpanwer : MonoBehaviour
 
     IEnumerator waitSpawner()
     {
-        yield return new WaitForSeconds(startWait);
+        yield return new WaitForSeconds(delay);
 
         while (true)
         {
-            randEnemy = Random.Range(0, this.items.Length);
+            randItem = Random.Range(0, this.items.Length);
 
-            Vector3 SpawnPosition = new Vector3(Random.Range(-direction.x, direction.x), Random.Range(-direction.y, direction.y), 1);
+            Instantiate(items[randItem], this.gameObject.transform.position, gameObject.transform.rotation, this.parent);
 
-            Instantiate(items[randEnemy], SpawnPosition + transform.TransformPoint(0, 0, 0), gameObject.transform.rotation);
-
-            yield return new WaitForSeconds(spawnWait);
+            yield return new WaitForSeconds(delay);
         }
     }
 }
