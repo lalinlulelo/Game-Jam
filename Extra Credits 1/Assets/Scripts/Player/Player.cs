@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
     }
 
     public void ApplyEfect(Type t) {
-        if (t == typeof(Item)) {
+        if (t == typeof(Orange)) {
             this.healthPoints += 1;
         }
     }
