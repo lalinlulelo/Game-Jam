@@ -1123,6 +1123,7 @@ MonoBehaviour:
   items:
   - {fileID: 3432425565424651333, guid: d8b22ec9629713445befc95851c73b9c, type: 3}
   - {fileID: 7697219598337537315, guid: e4990763819db6f41b55902fb568eb14, type: 3}
+  - {fileID: 1960279316131771207, guid: 6b5f1f0e76ce16f4f957568a86cc3eb1, type: 3}
   delay: 2
   stop: 0
   parent: {fileID: 1336491220}
@@ -1285,15 +1286,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
+      propertyPath: m_TagString
+      value: Human
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.13
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7
+      value: -6.9
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1337,36 +1342,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5000000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_Constraints
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6100000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11400004, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
---- !u!1 &1070761467 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1070761466}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1070761468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070761467}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3897c51d3dc2e464eaa2fd8f773d8e66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  healthPoints: 10
-  cuantoAvanzar: 1
-  cuantoRetroceder: 1
-  limite: 2
 --- !u!1 &1132929839
 GameObject:
   m_ObjectHideFlags: 0

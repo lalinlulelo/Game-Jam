@@ -71,4 +71,12 @@ public class Player : MonoBehaviour
             timeInvincible = DateTime.Now;
         }
     }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Human"))
+        {
+            OnGameOver();
+        }
+    }
 }
