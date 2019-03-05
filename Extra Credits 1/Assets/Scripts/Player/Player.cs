@@ -16,6 +16,10 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (this.healthPoints == 0)
+        {
+            this.GetComponent<Animator>().SetBool("Shot", true);
+        }
         
     }
 
