@@ -5,7 +5,7 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    public float healthPoints;
+    public float healthPoints=2;
 
     // Start is called before the first frame update
     void Start()
