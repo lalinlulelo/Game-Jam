@@ -38,6 +38,8 @@ public class Player : MonoBehaviour
     public void ApplyEfect(Type t) {
         if (t == typeof(Orange)) {
             this.healthPoints += 1;
+        } else if (t == typeof(Coin)) {
+            ApplicationModel.days += 10;
         }
     }
 }
