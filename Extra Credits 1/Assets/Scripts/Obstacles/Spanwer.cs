@@ -38,7 +38,7 @@ public class Spanwer : MonoBehaviour
         {
             randEnemy = Random.Range(0, this.enemies.Length);
 
-            Vector3 SpawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), Random.Range(-spawnValues.y, spawnValues.y), 1);
+            Vector3 SpawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), spawnValues.y, 1);
 
             Instantiate(enemies[randEnemy], SpawnPosition + transform.TransformPoint(0, 0, 0), gameObject.transform.rotation);
 

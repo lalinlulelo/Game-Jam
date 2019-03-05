@@ -10,9 +10,8 @@ public class cat_controller : MonoBehaviour
     public float MoveSpeed = 2f;
     Vector3 Start_Scale;
     bool ground = false;
-    public String nombreTag;
+    public String nombreTag="Ground";
     public float jumpForce = 5f;
-    public float downForce = 0.5f;
     public float longitudMaximaCaida = 1f;
     void Start()
     {
@@ -20,16 +19,18 @@ public class cat_controller : MonoBehaviour
         Start_Scale = transform.localScale;
     }
     private bool falling = false;
+    private bool salta = false;
     void Update()
     {
         if (this.guardoUna&&falling && this.GetComponent<BoxCollider2D>().size.Equals(new Vector3(1f, 1f)) 
             && Math.Abs(this.devolver().y - this.GetComponent<Transform>().position.y) <= 0.1)
         {
-            falling = false;
+            falling = false;            
         }
-        if (Input.GetKey(KeyCode.UpArrow) && ground&&!falling)
+        if (Input.GetKey(KeyCode.UpArrow) && ground && !falling)
         {
             GetComponent<Rigidbody2D>().velocity = Vector3.up * jumpForce;
+            salta = true;
         }
         else if (!falling && Input.GetKey(KeyCode.DownArrow)&&ground)
         {            
@@ -39,13 +40,10 @@ public class cat_controller : MonoBehaviour
                 _anim.SetBool("Move", true);
                 this.GetComponent<BoxCollider2D>().size = new Vector2(0.001f, 0.001f);
                 falling = true;                       
-        }else{
-            if (this.guardoUna&&falling&&Math.Abs(this.devolver().y-this.GetComponent<Transform>().position.y)>=longitudMaximaCaida)
-            {
+        }else if(falling && !Input.GetKey(KeyCode.DownArrow) && ground){            
                 GetComponent<Rigidbody2D>().velocity = Vector3.up * longitudMaximaCaida;                                
                 _anim.SetBool("Move", false);
-                this.GetComponent<BoxCollider2D>().size = new Vector3(1f, 1f);
-            }                        
+                this.GetComponent<BoxCollider2D>().size = new Vector3(1f, 1f);                                   
         }
     }
     void OnCollisionEnter2D(Collision2D col)
@@ -62,7 +60,11 @@ public class cat_controller : MonoBehaviour
         if (col.gameObject.tag.Equals(nombreTag))
         {
             ground = false;
-            _anim.SetBool("Jump", true);
+            if (salta)
+            {
+                _anim.SetBool("Jump", true);
+                salta = false;
+            }
         }
     }
     private Vector3 v3;
