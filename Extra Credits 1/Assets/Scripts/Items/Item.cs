@@ -7,7 +7,7 @@ public class Item : AutoDestroy
     {
         if (collision.GetComponent<Player>() != null)
         {
-            collision.SendMessage("ApplyEfect", this.GetType());
+            collision.SendMessage("ApplyEffect", this.GetType());
             Destroy(gameObject);
         }
     }
