@@ -868,6 +868,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7280828113343785161, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7280828113343785164, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1214,7 +1219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1326,7 +1331,7 @@ MonoBehaviour:
   - {fileID: 1545616600811934959, guid: 7cf0700f0eb8d07439a8ec8e646b7385, type: 3}
   - {fileID: 2407993072340425392, guid: 56606e559f9d1f947b96b4dd06f3c931, type: 3}
   - {fileID: 7365655302494638153, guid: edb44074748befb42a677ede7b8e3daf, type: 3}
-  spawnValues: {x: 0, y: 3.88, z: 0}
+  spawnValues: {x: 0, y: 6, z: 0}
   spawnWait: 0.27
   spawnMostWait: 2.13
   spawnLeastWait: 1.92
