@@ -20,7 +20,7 @@ public class cat_controller : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow)&&ground)
+        if (Input.GetKey(KeyCode.UpArrow)&&ground&& Input.GetKey(KeyCode.Space))
         {            
                 GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);                
         }

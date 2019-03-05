@@ -36,7 +36,7 @@ public class Spanwer : MonoBehaviour
 
         while (true)
         {
-            randEnemy = Random.Range(0, 2);
+            randEnemy = Random.Range(0, this.enemies.Length);
 
             Vector3 SpawnPosition = new Vector3(Random.Range(-spawnValues.x, spawnValues.x), Random.Range(-spawnValues.y, spawnValues.y), 1);
 
