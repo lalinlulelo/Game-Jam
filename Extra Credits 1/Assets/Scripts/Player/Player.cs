@@ -5,7 +5,7 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    public float healthPoints;
+    public float healthPoints=2;
 
     // Start is called before the first frame update
     void Start()
@@ -15,12 +15,7 @@ public class Player : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        if (this.healthPoints == 0)
-        {
-            this.GetComponent<Animator>().SetBool("Shot", true);
-        }
-        
+    {                
     }
 
     public void TakeDamage(float damage)
@@ -29,6 +24,7 @@ public class Player : MonoBehaviour
 
         if (healthPoints <= 0)
         {
+            this.GetComponent<Animator>().SetBool("Shot", true);
             this.OnGameOver();
         }
     }

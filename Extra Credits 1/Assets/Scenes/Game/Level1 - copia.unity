@@ -395,7 +395,7 @@ PrefabInstance:
     - target: {fileID: 7280828113343785164, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.22
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7280828113343785164, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
         type: 3}
@@ -446,6 +446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: jumpForce
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280828113343785166, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
+        type: 3}
+      propertyPath: healthPoints
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 613a9e555bf46d641b4c4ccf22fe2d7d, type: 3}
