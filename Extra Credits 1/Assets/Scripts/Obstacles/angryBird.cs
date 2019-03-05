@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class angryBird : MonoBehaviour
 {
+    private int min = -2;
+    private int max = 2;
     public float y;
     private Rigidbody rigidbody;
     // Start is called before the first frame update
