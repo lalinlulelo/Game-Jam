@@ -22,7 +22,8 @@ public class cat_controller : MonoBehaviour
     private bool falling = false;
     void Update()
     {
-        if (this.guardoUna&&falling && this.GetComponent<BoxCollider2D>().size.Equals(new Vector3(1f, 1f)) && Math.Abs(this.devolver().y - this.GetComponent<Transform>().position.y) <= 0.1)
+        if (this.guardoUna&&falling && this.GetComponent<BoxCollider2D>().size.Equals(new Vector3(1f, 1f)) 
+            && Math.Abs(this.devolver().y - this.GetComponent<Transform>().position.y) <= 0.1)
         {
             falling = false;
         }
@@ -30,7 +31,7 @@ public class cat_controller : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().velocity = Vector3.up * jumpForce;
         }
-        else if (!falling && Input.GetKey(KeyCode.DownArrow))
+        else if (!falling && Input.GetKey(KeyCode.DownArrow)&&ground)
         {            
             if (guardoUna)
                     this.cargar();

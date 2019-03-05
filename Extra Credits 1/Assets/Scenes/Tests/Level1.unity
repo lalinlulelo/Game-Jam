@@ -466,7 +466,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentTimeOfDay: 0
   timetext: {fileID: 1785613894}
-  days: 0
   fogday: {r: 1, g: 1, b: 1, a: 1}
   fognight: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   speed: 10000
@@ -474,6 +473,57 @@ MonoBehaviour:
   endPoint: {x: 20, y: -10}
   controlPointLeft: {x: -5, y: 15}
   controlPointRight: {x: 5, y: 15}
+--- !u!1 &941384387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 941384389}
+  - component: {fileID: 941384388}
+  m_Layer: 0
+  m_Name: ItemSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &941384388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941384387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d4c1000d11fcea438f9f8711f6e091f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 5590376806059451623, guid: 5a291dc5c99848b4c8a5b4089296faa5, type: 3}
+  direction: {x: 0, y: 4.18, z: 0}
+  spawnWait: 0.27
+  spawnMostWait: 2.13
+  spawnLeastWait: 1.92
+  startWait: 2
+  stop: 0
+--- !u!4 &941384389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941384387}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.9, y: 1.3, z: 20}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &949093928
 GameObject:
   m_ObjectHideFlags: 0

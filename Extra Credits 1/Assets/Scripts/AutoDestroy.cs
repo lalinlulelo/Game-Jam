@@ -5,6 +5,6 @@ public class AutoDestroy : MonoBehaviour
 {
     void OnBecameInvisible()
     {
-        Destroy(gameObject);
+            Destroy(gameObject);
     }
 }
