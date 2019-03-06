@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
             currentTime = DateTime.Now;
             milliseconds = (currentTime - fin).TotalMilliseconds;
             //cambiar este numero para la duracion
-            if (milliseconds > 2250)
+            if (milliseconds > 2000)
             {
                 this.OnGameOver();
             }
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         {
             ApplicationModel.days -= 15;
         }
-        else if (t == typeof(Banana))
+        else if (t == typeof(Cookie))
         {
             isInvincible = true;
             timeInvincible = DateTime.Now;
