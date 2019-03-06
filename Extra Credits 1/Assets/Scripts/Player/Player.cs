@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Threading;
 
 public class Player : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class Player : MonoBehaviour
     {
         maximoCorrer = this.GetComponent<Transform>().position.x + limite;
     }
-
+    private bool sigueEntrando = false;
     // Update is called once per frame
     void Update()
     {
@@ -25,6 +26,18 @@ public class Player : MonoBehaviour
         {
             isInvincible = false;
         }
+        if (this.GetComponent<Animator>().GetBool("Shot")||sigueEntrando)
+        {
+            sigueEntrando = true;
+            currentTime = DateTime.Now;
+            milliseconds = (currentTime - fin).TotalMilliseconds;
+            //cambiar este numero para la duracion
+            if (milliseconds > 2250)
+            {
+                this.OnGameOver();
+            }
+        }
+        
     }
 
     public void TakeDamage(float damage)
@@ -35,9 +48,7 @@ public class Player : MonoBehaviour
             GetComponent<Transform>().position = new Vector3(GetComponent<Transform>().position.x - this.cuantoRetroceder, GetComponent<Transform>().position.y,
                 GetComponent<Transform>().position.z);
             limite++;
-        }
-        //this.GetComponent<Animator>().SetBool("Shot", true);
-        //this.OnGameOver();        
+        }        
     }
 
 
@@ -71,12 +82,15 @@ public class Player : MonoBehaviour
             timeInvincible = DateTime.Now;
         }
     }
-
+    private DateTime fin;
+    private bool primeraVez = false;
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Human"))
+        if (collision.CompareTag("Human")&&!primeraVez)
         {
-            OnGameOver();
+            this.GetComponent<Animator>().SetBool("Shot", true);
+            fin = DateTime.Now;
+            primeraVez = true;
         }
     }
 }

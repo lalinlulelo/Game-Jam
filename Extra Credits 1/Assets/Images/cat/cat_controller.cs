@@ -44,7 +44,7 @@ public class cat_controller : MonoBehaviour
                 GetComponent<Rigidbody2D>().velocity = Vector3.up * longitudMaximaCaida;                                
                 _anim.SetBool("Move", false);
                 this.GetComponent<BoxCollider2D>().size = new Vector3(1f, 1f);                                   
-        }
+        }        
     }
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -82,6 +82,5 @@ public class cat_controller : MonoBehaviour
     {
         this.GetComponent<Transform>().position=v3;
     }
-
 
 }
