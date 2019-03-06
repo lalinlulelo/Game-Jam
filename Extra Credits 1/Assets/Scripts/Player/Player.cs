@@ -76,6 +76,10 @@ public class Player : MonoBehaviour
         {
             ApplicationModel.days += 10;
         }
+        else if (t == typeof(FalseCoin))
+        {
+            ApplicationModel.days -= 15;
+        }
         else if (t == typeof(Banana))
         {
             isInvincible = true;

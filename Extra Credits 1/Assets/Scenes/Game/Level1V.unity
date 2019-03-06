@@ -1364,6 +1364,7 @@ MonoBehaviour:
   items:
   - {fileID: 3432425565424651333, guid: d8b22ec9629713445befc95851c73b9c, type: 3}
   - {fileID: 7697219598337537315, guid: e4990763819db6f41b55902fb568eb14, type: 3}
+  - {fileID: 1778941296704092309, guid: 744a29712ada5c1409790192be574140, type: 3}
   delay: 8
   stop: 0
   parent: {fileID: 1336491220}
@@ -2203,6 +2204,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_GravityScale
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7280828113343785163, guid: 613a9e555bf46d641b4c4ccf22fe2d7d,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 613a9e555bf46d641b4c4ccf22fe2d7d, type: 3}
