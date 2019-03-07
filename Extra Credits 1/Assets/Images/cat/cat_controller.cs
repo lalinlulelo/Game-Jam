@@ -27,12 +27,12 @@ public class cat_controller : MonoBehaviour
         {
             falling = false;            
         }
-        if (Input.GetKey(KeyCode.UpArrow) && ground && !falling)
+        if ((Input.GetKey(KeyCode.UpArrow)||Input.GetKey(KeyCode.Space)|| Input.GetKey(KeyCode.W)) && ground && !falling)
         {
             GetComponent<Rigidbody2D>().velocity = Vector3.up * jumpForce;
             salta = true;
         }
-        else if (!falling && Input.GetKey(KeyCode.DownArrow) && ground)
+        else if (!falling && (Input.GetKey(KeyCode.DownArrow)|| Input.GetKey(KeyCode.S)) && ground)
         {            
             if (guardoUna)
                     this.cargar();
