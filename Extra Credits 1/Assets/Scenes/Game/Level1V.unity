@@ -934,7 +934,7 @@ Transform:
   m_LocalScale: {x: 65.78687, y: 61.163002, z: 0.5741}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &745993681
 GameObject:
@@ -1365,8 +1365,8 @@ MonoBehaviour:
   - {fileID: 3432425565424651333, guid: d8b22ec9629713445befc95851c73b9c, type: 3}
   - {fileID: 7697219598337537315, guid: e4990763819db6f41b55902fb568eb14, type: 3}
   - {fileID: 1778941296704092309, guid: 744a29712ada5c1409790192be574140, type: 3}
-  - {fileID: 8040158547700365749, guid: f5ae1efa4ff3fc448a9c693124a945a6, type: 3}
-  delay: 8
+  - {fileID: 6847061782699512787, guid: f5ae1efa4ff3fc448a9c693124a945a6, type: 3}
+  delay: 7.5
   stop: 0
   parent: {fileID: 1336491220}
 --- !u!61 &1003232079
@@ -1536,7 +1536,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.13
+      value: -20.1
       objectReference: {fileID: 0}
     - target: {fileID: 400022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1598,8 +1598,13 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400004, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
+    - {fileID: 6100000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: d63d2abbae1ad1348b49bc8f8b2cde5f, type: 3}
 --- !u!1 &1132929839
 GameObject:
@@ -1612,7 +1617,7 @@ GameObject:
   - component: {fileID: 1132929841}
   - component: {fileID: 1132929840}
   m_Layer: 0
-  m_Name: Spawner
+  m_Name: BirdSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1802,7 +1807,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -4
   m_Sprite: {fileID: 21300000, guid: 8039cf356a77eb04b9a2797ef3199116, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1855,7 +1860,7 @@ GameObject:
   - component: {fileID: 1448327399}
   - component: {fileID: 1448327398}
   m_Layer: 0
-  m_Name: Spawner (1)
+  m_Name: PlantSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1877,9 +1882,9 @@ MonoBehaviour:
   - {fileID: 2032807378290150789, guid: b69746b6e26c03644b81f0e04c1e51da, type: 3}
   - {fileID: 8287337561135195784, guid: dd99fbb737b9d3f428b142c0d1c67f80, type: 3}
   spawnValues: {x: 0.3, y: 1.05, z: 0}
-  spawnWait: 0.3
-  spawnMostWait: 2
-  spawnLeastWait: 1.5
+  spawnWait: 1.4
+  spawnMostWait: 2.7
+  spawnLeastWait: 2.2
   startWait: 2
   stop: 0
   parent: {fileID: 1336491220}
@@ -1895,8 +1900,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1463493069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100022, guid: d63d2abbae1ad1348b49bc8f8b2cde5f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1070761466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1463493070
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1463493069}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.08, y: 1.99}
+  m_Size: {x: 1.51, y: 3.95}
+  m_Direction: 0
 --- !u!1 &1463930215
 GameObject:
   m_ObjectHideFlags: 0
@@ -2286,7 +2313,7 @@ GameObject:
   - component: {fileID: 2027863841}
   - component: {fileID: 2027863840}
   m_Layer: 0
-  m_Name: 'SpawnerItem '
+  m_Name: FlySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2308,9 +2335,9 @@ MonoBehaviour:
   - {fileID: 2794033653840136287, guid: be40e779a8fe6c546ac74125e83c6f54, type: 3}
   - {fileID: 2794033653840136287, guid: 4be8b3d704bdfb14e9c7927b65d7e743, type: 3}
   spawnValues: {x: 0.3, y: 0.9, z: 0}
-  spawnWait: 0.3
-  spawnMostWait: 2
-  spawnLeastWait: 1.5
+  spawnWait: 0.35
+  spawnMostWait: 1.9
+  spawnLeastWait: 1.45
   startWait: 2
   stop: 0
   parent: {fileID: 0}
